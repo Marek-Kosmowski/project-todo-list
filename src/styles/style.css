@@ -79,19 +79,18 @@
 .project-list-item {
   width: 110px;
   height: 30px;
-  border: 2px solid #e9c46a;
   cursor: pointer;
   border-radius: 30px;
   background-color: #4a4e69;
   color: #e9c46a;
-  transition: 0.2s;
+  font-size: 1rem;
   font-weight: bold;
+  border: none;
+  transition: 0.3s;
 }
 
 .project-list-item:hover {
-  transform: scale(1.1);
   background-color: #f2e9e4;
-  border: 2px solid #22223b;
   color: #22223b;
 }
 
@@ -149,4 +148,24 @@
   border: 2px solid #4a4e69;
   background-color: #f2e9e4;
   color: #22223b;
+}
+.project-list-item-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #4a4e69;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.project-list-item-container:hover {
+  transform: scale(1.1);
+  background-color: #f2e9e4;
+  border: 2px solid #22223b;
+  color: #22223b;
+}
+.project-remove-button {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
 }
